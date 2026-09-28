@@ -1,0 +1,14 @@
+php_value upload_max_filesize 512M
+php_value post_max_size 512M
+php_value max_execution_time 300
+php_value max_input_time 300
+php_value memory_limit 512M
+
+# Enable proper audio & video streaming MIME types
+AddType audio/mpeg .mp3
+AddType audio/mp4 .m4a
+AddType audio/webm .webm
+AddType audio/ogg .ogg
+AddType video/mp4 .mp4
+AddType video/quicktime .mov
+
